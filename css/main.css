@@ -1,0 +1,139 @@
+body{
+    box-sizing: border-box;
+    font-size: 1em;
+    margin: 0;
+}
+header{
+    height: 8vh;
+    width: 100%;
+    padding: 1em 0em;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    border-bottom: rgba(0, 0, 0, 0.746);
+}
+header > *{
+    position: relative;
+    display: inline-block;
+}
+header div{
+    width: 5%;
+    height: 5vh;
+    position: relative;
+    left: 1.5em;
+    top: 1em;
+}
+header div img{
+ width: 50%;
+
+}
+header > form{
+    width: 60%;
+    height: 5vh;
+    padding: 0.5em;
+
+}
+header navbar{
+    height: 5vh;
+    width: 30%;
+}
+header navbar a{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+header navbar a:nth-child(3) *{
+    width: 50%;
+    display: inline-block;
+}
+header navbar a:nth-child(3) img{
+    width: 30%;
+    max-height: 5vh;
+    border-radius:50%;
+    position: relative;
+    top: 1em;
+    margin: 0 0.5em;
+}
+form{
+    background-color: #EFEFEF;
+    margin: 1em;
+    text-align: center;
+}
+form input{
+    width: 80%;
+    height: 5vh;
+
+}
+form > *{
+    border: none;
+    background-color: #EFEFEF;
+}
+main{
+    position: relative;
+    z-index: -1;
+    top: 15vh;
+}
+.column{
+    float: left;
+    max-width: 30%;
+    min-height: fit-content;
+    margin: 0.5em;
+}
+.column > .pin{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    background-color:white;
+    border-radius: 10%;
+    margin:0.5em 1em;
+}
+.forth{
+    clear: left;
+}
+.pin img{
+    max-width:75%;
+    height: auto;
+    border-radius: 10%;
+}
+.pin:hover{
+    opacity: 0.5;
+}
+.pin-title{
+    position: relative;
+    overflow: auto;
+    padding: 0.5em;
+    color: rgba(0, 0, 0, 0.746);
+}
+.pin-title p:nth-child(1){
+    float: left;
+}
+.pin-title p:nth-child(2){
+    float: right;
+}
+.tag-bar{
+    clear: both;
+    position: relative;
+    width: 100%;
+    top: 12vh;
+    min-height: 15vh;
+    max-height: fit-content;
+    text-align: center;
+    background-color: rgba(0%,0%,0%,0.08);
+}
+.tag-bar > div{
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    height: 9vh;
+    padding:0em 1em;
+    min-width: 5%;
+    white-space: nowrap;
+    /* Esto lo que hace es que el texto seguira en linea infinitamente */
+    background-color: rgb(46, 145, 184);
+    color: white;
+    vertical-align: middle;
+    border-radius: 5%;
+    font-family: 'Roboto';
+}
+
+
